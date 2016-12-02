@@ -9,11 +9,11 @@ This tool is very useful in bringing out all the vulnerabilities it knows on a t
 You can download the home version from http://www.tenable.com/products/nessus/select-your-operating-system. Keep in mind that this requires a registration as you will get a registration code in your email.
 Once you download the .deb file, run the below command to install the package:
 
-        `dpkg –i Nessus-6.5.6-debian6_amd64.deb`
+        dpkg –i Nessus-6.5.6-debian6_amd64.deb
         
 Next, we start the service using,
 
-        `#/etc/init.d/nessusd start`
+        #/etc/init.d/nessusd start
         
 ### Usage
 
